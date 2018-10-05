@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+=======
+*.json
+*.pyc
+__pycache__
+data
+!data/trivia/*
+!data/audio/playlists/*
+*.exe
+*.dll
+start_red*
+start_launcher.sh
+start_launcher.command
+lib
+>>>>>>> 229161e70de73e1c2dfb5dc26ad45012824b74d3
