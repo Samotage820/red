@@ -1,0 +1,112 @@
+{
+    "Servers" : {
+        "159728483231072257" : {
+            "Config" : {
+                "Alert Time" : 9873,
+                "Bail Base" : 500,
+                "Crew Output" : "None",
+                "Death Timer" : 86400,
+                "Hardcore" : false,
+                "Heist Cost" : 100,
+                "Heist Planned" : false,
+                "Heist Start" : false,
+                "Police Alert" : 60,
+                "Sentence Base" : 600,
+                "Theme" : "Heist",
+                "Version" : 2.41,
+                "Wait Time" : 20
+            },
+            "Crew" : {},
+            "Players" : {
+                "159728231019184128" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 2,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 2,
+                    "Name" : "Samotage820",
+                    "OOB" : false,
+                    "Sentence" : 600,
+                    "Spree" : 0,
+                    "Status" : "Apprehended",
+                    "Time Served" : 4491,
+                    "Total Jail" : 2
+                },
+                "159794049438580737" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 2,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 2,
+                    "Name" : "LittleWolf",
+                    "OOB" : false,
+                    "Sentence" : 600,
+                    "Spree" : 0,
+                    "Status" : "Apprehended",
+                    "Time Served" : 4491,
+                    "Total Jail" : 2
+                },
+                "159826798295646208" : {
+                    "Bail Cost" : 500,
+                    "Criminal Level" : 1,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 1,
+                    "Name" : "knockonwood0",
+                    "OOB" : true,
+                    "Sentence" : 600,
+                    "Spree" : 0,
+                    "Status" : "Free",
+                    "Time Served" : 4245,
+                    "Total Jail" : 1
+                },
+                "367460898467479553" : {
+                    "Bail Cost" : 0,
+                    "Criminal Level" : 0,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 0,
+                    "Name" : "emmanem2797",
+                    "OOB" : false,
+                    "Sentence" : 0,
+                    "Spree" : 4,
+                    "Status" : "Free",
+                    "Time Served" : 0,
+                    "Total Jail" : 0
+                },
+                "68850903678976000" : {
+                    "Bail Cost" : 1500,
+                    "Criminal Level" : 2,
+                    "Death Timer" : 0,
+                    "Deaths" : 0,
+                    "Jail Counter" : 2,
+                    "Name" : "H40p",
+                    "OOB" : false,
+                    "Sentence" : 600,
+                    "Spree" : 0,
+                    "Status" : "Apprehended",
+                    "Time Served" : 4491,
+                    "Total Jail" : 2
+                }
+            },
+            "Targets" : {
+                "Harvest & Trustee Bank" : {
+                    "Crew" : 4,
+                    "Success" : 40,
+                    "Vault" : 1000,
+                    "Vault Max" : 1000
+                }
+            },
+            "Theme" : {
+                "Bail" : "bail",
+                "Crew" : "crew",
+                "Heist" : "heist",
+                "Jail" : "jail",
+                "OOB" : "out on bail",
+                "Police" : "Police",
+                "Sentence" : "sentence",
+                "Vault" : "vault"
+            }
+        }
+    }
+}

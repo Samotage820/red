@@ -1,0 +1,577 @@
+[21/09/2017 23:02] ERROR red load_cogs 573: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\site-packages\discord\ext\commands\bot.py", line 717, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\audio.py", line 2378, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/09/2017 23:05] ERROR owner load 73: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\audio.py", line 2378, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/09/2017 23:50] ERROR owner load 73: No module named 'keyboard'
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\selfbotstatus.py", line 1, in <module>
+    import keyboard as kb
+ImportError: No module named 'keyboard'
+[21/09/2017 23:52] ERROR owner load 73: You must run `pip3 install wikia` to use this cog
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\wikia.py", line 8, in <module>
+    import wikia
+ImportError: No module named 'wikia'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\wikia.py", line 11, in <module>
+    from e
+RuntimeError: You must run `pip3 install wikia` to use this cog
+[21/09/2017 23:53] ERROR red load_cogs 573: No module named 'keyboard'
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\selfbotstatus.py", line 1, in <module>
+    import keyboard as kb
+ImportError: No module named 'keyboard'
+[21/09/2017 23:53] ERROR red load_cogs 573: You must run `pip3 install wikia` to use this cog
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\wikia.py", line 8, in <module>
+    import wikia
+ImportError: No module named 'wikia'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\wikia.py", line 11, in <module>
+    from e
+RuntimeError: You must run `pip3 install wikia` to use this cog
+[22/09/2017 00:03] INFO economy _set 393: Samotage820(159728231019184128) set 10 credits to Samotage820 (159728231019184128)
+[22/09/2017 00:05] INFO economy _set 380: Samotage820(159728231019184128) added 100 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:06] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:08] INFO economy _set 380: Samotage820(159728231019184128) added 69 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:08] INFO economy _set 380: Samotage820(159728231019184128) added 1 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:08] INFO economy _set 380: Samotage820(159728231019184128) added 4 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:11] INFO economy _set 393: Samotage820(159728231019184128) set 5000 credits to knockonwood0 (159826798295646208)
+[22/09/2017 00:12] INFO economy _set 386: Samotage820(159728231019184128) removed 719 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:12] INFO economy _set 380: Samotage820(159728231019184128) added 719 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:15] INFO economy transfer 352: Samotage820(159728231019184128) transferred 100 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:18] INFO economy _set 386: Samotage820(159728231019184128) removed 1000 credits to knockonwood0 (159826798295646208)
+[22/09/2017 00:19] INFO economy transfer 352: Samotage820(159728231019184128) transferred 5 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:20] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 4 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:22] INFO economy _set 380: Samotage820(159728231019184128) added 50 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:23] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 1 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:24] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 1 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:24] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 1 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:24] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 2 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:24] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 1 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:24] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 5 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:25] INFO economy transfer 352: knockonwood0(159826798295646208) transferred 15 credits to LittleWolf(159794049438580737)
+[22/09/2017 00:26] ERROR red on_command_error 369: Exception in command 'border setup'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\grenzpolizei.py", line 232, in _setup
+    new_server = await self._setup_questions(context)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\grenzpolizei.py", line 192, in _setup_questions
+    channels['member_event_channel'] = await self._what_channel('Which channel do you want to use for member events? (please mention the channel)', author)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\grenzpolizei.py", line 94, in _what_channel
+    channel = message.raw_channel_mentions[0]
+IndexError: list index out of range
+[22/09/2017 00:36] ERROR red on_command_error 369: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "lib\discord\client.py", line 1474, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "lib\discord\http.py", line 198, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: NOT FOUND (status code: 404): Unknown Message
+[22/09/2017 00:55] INFO economy _set 386: Samotage820(159728231019184128) removed 120 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:56] INFO economy _set 380: Samotage820(159728231019184128) added 119 credits to LittleWolf (159794049438580737)
+[22/09/2017 00:56] INFO economy transfer 352: Samotage820(159728231019184128) transferred 1 credits to LittleWolf(159794049438580737)
+[22/09/2017 01:00] INFO economy _set 380: Samotage820(159728231019184128) added 666 credits to LittleWolf (159794049438580737)
+[22/09/2017 12:44] ERROR owner load 73: name 'openrp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\openrp.py", line 90, in setup
+    n = openrp(bot)
+NameError: name 'openrp' is not defined
+[22/09/2017 12:45] ERROR owner load 73: name 'openrp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\openrp.py", line 90, in setup
+    n = openrp(bot)
+NameError: name 'openrp' is not defined
+[22/09/2017 12:51] ERROR owner load 73: name 'openrp' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\openrp.py", line 90, in setup
+    n = openrp(bot)
+NameError: name 'openrp' is not defined
+[22/09/2017 13:26] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to bikinirepublic (190670386109612033)
+[22/09/2017 13:26] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to bikinirepublic (190670386109612033)
+[22/09/2017 13:27] INFO economy _set 393: Samotage820(159728231019184128) set 10000 credits to LittleWolf (159794049438580737)
+[22/09/2017 13:57] INFO economy _set 386: Samotage820(159728231019184128) removed 1 credits to LittleWolf (159794049438580737)
+[22/09/2017 19:16] ERROR red load_cogs 573: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x052D72D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+Traceback (most recent call last):
+  File "lib\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "lib\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "lib\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "lib\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "lib\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "lib\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x052D72D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "lib\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "lib\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x052D72D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\image.py", line 168, in setup
+    bot.add_cog(Image(bot))
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\cogs\image.py", line 22, in __init__
+    self.imgur = ImgurClient(CLIENT_ID, CLIENT_SECRET)
+  File "lib\imgurpython\client.py", line 85, in __init__
+    self.credits = self.get_credits()
+  File "lib\imgurpython\client.py", line 94, in get_credits
+    return self.make_request('GET', 'credits', None, True)
+  File "lib\imgurpython\client.py", line 131, in make_request
+    response = method_to_call(url, headers=header, params=data, data=data)
+  File "lib\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "lib\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "lib\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "lib\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "lib\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x052D72D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+[22/09/2017 19:16] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "lib\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib\aiohttp\connector.py", line 589, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib\aiohttp\connector.py", line 561, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib\aiohttp\resolver.py", line 29, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 358, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 290, in _wakeup
+    future.result()
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\concurrent\futures\thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 11001] Cannot connect to host discordapp.com:443 ssl:True [getaddrinfo failed]
+[25/09/2017 10:35] INFO economy _set 380: Samotage820(159728231019184128) added 500 credits to Samotage820 (159728231019184128)
+[25/09/2017 10:36] INFO economy _set 386: Samotage820(159728231019184128) removed 1 credits to knockonwood0 (159826798295646208)
+[26/09/2017 15:23] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "lib\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib\aiohttp\connector.py", line 589, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "lib\aiohttp\connector.py", line 561, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "lib\aiohttp\resolver.py", line 29, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 358, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 290, in _wakeup
+    future.result()
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\concurrent\futures\thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\base_events.py", line 337, in run_until_complete
+    return future.result()
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python35-32\lib\asyncio\tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "C:\Users\Sam\Desktop\Red-DiscordBot\red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 11001] Cannot connect to host discordapp.com:443 ssl:True [getaddrinfo failed]
+[01/12/2017 00:28] INFO economy _set 386: Samotage820(159728231019184128) removed 69 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:31] INFO economy _set 386: Samotage820(159728231019184128) removed 10000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:34] INFO economy _set 386: Samotage820(159728231019184128) removed 51 credits to emmanem2797 (367460898467479553)
+[01/12/2017 00:34] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to emmanem2797 (367460898467479553)
+[01/12/2017 00:36] INFO economy _set 380: Samotage820(159728231019184128) added 5000 credits to H40p (68850903678976000)
+[01/12/2017 00:46] INFO casino _transfer_casino 644: Samotage820(159728231019184128) transferred Jump 10 to emmanem2797(367460898467479553).
+[01/12/2017 00:50] INFO economy _set 380: Samotage820(159728231019184128) added 2000 credits to H40p (68850903678976000)
+[01/12/2017 00:50] INFO economy _set 380: Samotage820(159728231019184128) added 2000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:50] INFO economy _set 380: Samotage820(159728231019184128) added 2000 credits to emmanem2797 (367460898467479553)
+[01/12/2017 00:50] INFO economy _set 380: Samotage820(159728231019184128) added 2000 credits to knockonwood0 (159826798295646208)
+[01/12/2017 00:51] INFO economy _set 380: Samotage820(159728231019184128) added 2000 credits to Samotage820 (159728231019184128)
+[01/12/2017 00:54] INFO economy _set 386: Samotage820(159728231019184128) removed 69 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:55] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to H40p (68850903678976000)
+[01/12/2017 00:57] INFO economy _set 393: Samotage820(159728231019184128) set 100000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:57] INFO economy _set 386: Samotage820(159728231019184128) removed 100000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:57] INFO economy _set 393: Samotage820(159728231019184128) set 100000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:57] INFO economy _set 386: Samotage820(159728231019184128) removed 100000 credits to LittleWolf (159794049438580737)
+[01/12/2017 00:59] INFO economy _set 380: Samotage820(159728231019184128) added 1 credits to H40p (68850903678976000)
+[01/12/2017 00:59] INFO economy _set 380: Samotage820(159728231019184128) added 100 credits to H40p (68850903678976000)
+[01/12/2017 01:04] INFO economy _set 380: Samotage820(159728231019184128) added 100 credits to LittleWolf (159794049438580737)
+[01/12/2017 01:05] INFO economy _set 386: Samotage820(159728231019184128) removed 400 credits to emmanem2797 (367460898467479553)
+[01/12/2017 01:06] INFO economy _set 380: Samotage820(159728231019184128) added 500 credits to emmanem2797 (367460898467479553)
+[01/12/2017 01:08] ERROR red on_command_error 369: Exception in command 'heist bailout'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\heist.py", line 153, in _bailout_heist
+    self.subtract_costs(author, cost)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\heist.py", line 911, in subtract_costs
+    bank.withdraw_credits(author, cost)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\economy.py", line 158, in withdraw_credits
+    raise InsufficientBalance()
+cogs.economy.InsufficientBalance
+[01/12/2017 01:10] INFO economy _set 380: Samotage820(159728231019184128) added 10 credits to LittleWolf (159794049438580737)
+[01/12/2017 15:47] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to Samotage820 (159728231019184128)
+[01/12/2017 16:43] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to templeton11 (230334894360887296)
+[18/01/2018 23:15] ERROR red load_cogs 573: You need to run `pip3 install pyfiglet`
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\ascii.py", line 29, in setup
+    raise NameError("You need to run `pip3 install pyfiglet`")
+NameError: You need to run `pip3 install pyfiglet`
+[18/01/2018 23:15] ERROR red load_cogs 573: No module named 'tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\casino.py", line 25, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+[18/01/2018 23:15] ERROR red load_cogs 573: No module named 'tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\heist.py", line 21, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+[18/01/2018 23:15] ERROR red load_cogs 573: Run `pip install tabulate` to use Karma.
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\karma.py", line 185, in setup
+    raise RuntimeError("Run `pip install tabulate` to use Karma.")
+RuntimeError: Run `pip install tabulate` to use Karma.
+[18/01/2018 23:15] ERROR red load_cogs 573: No module named 'tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\pokedex.py", line 18, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+[18/01/2018 23:15] ERROR red load_cogs 573: You need to run 'pip3 install tabulate'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\shop.py", line 1218, in setup
+    raise RuntimeError("You need to run 'pip3 install tabulate'")
+RuntimeError: You need to run 'pip3 install tabulate'
+[19/01/2018 12:23] ERROR owner load 74: No module named 'tabulate'
+Traceback (most recent call last):
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\casino.py", line 25, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+[19/01/2018 12:27] ERROR owner load 74: No module named 'tabulate'
+Traceback (most recent call last):
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Sam\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\casino.py", line 25, in <module>
+    from tabulate import tabulate
+ModuleNotFoundError: No module named 'tabulate'
+[19/01/2018 12:40] ERROR owner load 74: You need to run `pip3 install pyfiglet`
+Traceback (most recent call last):
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\ascii.py", line 29, in setup
+    raise NameError("You need to run `pip3 install pyfiglet`")
+NameError: You need to run `pip3 install pyfiglet`
+[25/01/2018 16:42] ERROR owner load 74: extension does not have a setup function
+Traceback (most recent call last):
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 736, in load_extension
+    raise discord.ClientException('extension does not have a setup function')
+discord.errors.ClientException: extension does not have a setup function
+[25/01/2018 16:43] ERROR owner load 74: extension does not have a setup function
+Traceback (most recent call last):
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 736, in load_extension
+    raise discord.ClientException('extension does not have a setup function')
+discord.errors.ClientException: extension does not have a setup function
+[17/03/2018 21:01] ERROR red on_command_error 369: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "lib\discord\client.py", line 1473, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "lib\discord\http.py", line 198, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: NOT FOUND (status code: 404): Unknown Message
+[29/09/2018 23:54] INFO casino _transfer_casino 730: Samotage820(159728231019184128) transferred Jump 100 to emmanem(367460898467479553).
+[29/09/2018 23:56] INFO economy _set 380: Samotage820(159728231019184128) added 1000 credits to emmanem (367460898467479553)
+[04/10/2018 20:59] ERROR red on_command_error 369: Exception in command 'border setup'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\grenzpolizei.py", line 235, in _setup
+    new_server = await self._setup_questions(context)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\grenzpolizei.py", line 195, in _setup_questions
+    channels['member_event_channel'] = await self._what_channel('Which channel do you want to use for member events? (please mention the channel)', author)
+  File "C:\Users\Sam\Documents\Red-DiscordBot\cogs\grenzpolizei.py", line 97, in _what_channel
+    channel = message.raw_channel_mentions[0]
+IndexError: list index out of range

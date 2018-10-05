@@ -1,0 +1,5 @@
+{
+    "hunt_interval_maximum" : 180,
+    "hunt_interval_minimum" : 10,
+    "wait_for_bang_timeout" : 300
+}

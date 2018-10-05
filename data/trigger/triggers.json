@@ -1,0 +1,135 @@
+[
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "goodbot",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "I aim to please. \ud83d\ude09"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 2,
+        "triggered_by" : "good bot",
+        "type" : "all"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "thanks",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "You're welcome! \ud83d\ude0a"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 10,
+        "triggered_by" : "thanks red",
+        "type" : "all"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "fuckyou",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "Don't fall asleep tonight! \ud83d\ude0a",
+            "You're toying with powers beyond your comprehension. \ud83d\ude1c"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 22,
+        "triggered_by" : "fuck you red",
+        "type" : "random"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "hi",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "Hello! \ud83d\ude01",
+            "Hello! Wonderful weather we're having, isn't it?"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 5,
+        "triggered_by" : "hi red",
+        "type" : "random"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "hellothere",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "General Kenobi!"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 0,
+        "triggered_by" : "hello there",
+        "type" : "all"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "fuckyous",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "Hey! Play nice.",
+            "Be nice to daddy! \ud83d\ude24",
+            "There's no need to be rude. \ud83d\ude12"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 7,
+        "triggered_by" : "fuck you sam",
+        "type" : "random"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "morning",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "Good morning! \u2600"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 1,
+        "triggered_by" : "good morning red",
+        "type" : "all"
+    },
+    {
+        "active" : true,
+        "case_sensitive" : false,
+        "channels" : {},
+        "cooldown" : 1,
+        "name" : "night",
+        "owner" : "159728231019184128",
+        "regex" : false,
+        "responses" : [
+            "Sleep tight! \ud83c\udf1b",
+            "Sweet dreams! \ud83c\udf1c"
+        ],
+        "server" : "159728483231072257",
+        "triggered" : 0,
+        "triggered_by" : "goodnight red",
+        "type" : "all"
+    }
+]

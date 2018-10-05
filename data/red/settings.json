@@ -1,0 +1,14 @@
+{
+    "EMAIL" : null,
+    "OWNER" : "159728231019184128",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "/"
+    ],
+    "TOKEN" : "MzYwNjM1ODI3MDQwMDI2NjM2.DKYb1w.s0vxjq0M0s7Rp5KgXvHhgYOY-as",
+    "default" : {
+        "ADMIN_ROLE" : "Transistor",
+        "MOD_ROLE" : "Process",
+        "PREFIXES" : []
+    }
+}

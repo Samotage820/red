@@ -1,0 +1,54 @@
+{
+    "Servers" : {
+        "159728483231072257" : {
+            "Config" : {
+                "Inventory Output Method" : "Chat",
+                "Member Discount" : null,
+                "Pending Type" : "Manual",
+                "Shop Name" : "Jumpman's",
+                "Shop Notify" : false,
+                "Shop Open" : true,
+                "Shop Role" : "Shopkeeper",
+                "Sort Method" : "Alphabet",
+                "Store Output Method" : "Chat",
+                "Trade Cooldown" : 30
+            },
+            "Pending" : {},
+            "Shop List" : {
+                "Sandwich" : {
+                    "Buy Msg" : [],
+                    "Discount" : 0,
+                    "Item Cost" : 5,
+                    "Item Name" : "Sandwich",
+                    "Members Only" : "No",
+                    "Quantity" : "\u221e"
+                }
+            },
+            "Users" : {
+                "159728231019184128" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "Sandwich" : {
+                            "Item Name" : "Sandwich",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                },
+                "159794049438580737" : {
+                    "Block Trades" : false,
+                    "Inventory" : {
+                        "Sandwich" : {
+                            "Item Name" : "Sandwich",
+                            "Item Quantity" : 1
+                        }
+                    },
+                    "Member" : false,
+                    "Trade Cooldown" : 0
+                }
+            }
+        }
+    },
+    "Version" : "2.2.9"
+}

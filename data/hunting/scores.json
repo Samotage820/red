@@ -1,0 +1,104 @@
+{
+    "159728483231072257" : {
+        "159728231019184128" : {
+            "author_name" : "BIG BROTHER",
+            "score" : {
+                "chicken" : 19,
+                "duck" : 38,
+                "penguin" : 28,
+                "pigeon" : 17
+            },
+            "total" : 102
+        },
+        "159794049438580737" : {
+            "author_name" : "Phaelan",
+            "score" : {
+                "chicken" : 7,
+                "duck" : 15,
+                "penguin" : 13,
+                "pigeon" : 11
+            },
+            "total" : 46
+        },
+        "159826798295646208" : {
+            "author_name" : "Christian",
+            "score" : {
+                "chicken" : 14,
+                "duck" : 20,
+                "penguin" : 17,
+                "pigeon" : 19
+            },
+            "total" : 70
+        },
+        "160011808827113472" : {
+            "author_name" : "Sylvia",
+            "score" : {
+                "chicken" : 0,
+                "duck" : 1,
+                "penguin" : 2,
+                "pigeon" : 0
+            },
+            "total" : 3
+        },
+        "259471428464803840" : {
+            "author_name" : "Amir",
+            "score" : {
+                "chicken" : 10,
+                "duck" : 5,
+                "penguin" : 7,
+                "pigeon" : 10
+            },
+            "total" : 32
+        },
+        "350714074851704834" : {
+            "author_name" : "Ryan",
+            "score" : {
+                "chicken" : 0,
+                "duck" : 0,
+                "penguin" : 0,
+                "pigeon" : 1
+            },
+            "total" : 1
+        },
+        "367460898467479553" : {
+            "author_name" : "Emma",
+            "score" : {
+                "chicken" : 49,
+                "duck" : 47,
+                "penguin" : 39,
+                "pigeon" : 43
+            },
+            "total" : 178
+        },
+        "400083068246949890" : {
+            "author_name" : "Matty",
+            "score" : {
+                "chicken" : 40,
+                "duck" : 39,
+                "penguin" : 44,
+                "pigeon" : 54
+            },
+            "total" : 177
+        },
+        "68850903678976000" : {
+            "author_name" : "Matt",
+            "score" : {
+                "chicken" : 4,
+                "duck" : 3,
+                "penguin" : 3,
+                "pigeon" : 0
+            },
+            "total" : 10
+        },
+        "69096215068811264" : {
+            "author_name" : "Noah",
+            "score" : {
+                "chicken" : 2,
+                "duck" : 1,
+                "penguin" : 2,
+                "pigeon" : 1
+            },
+            "total" : 6
+        }
+    }
+}
